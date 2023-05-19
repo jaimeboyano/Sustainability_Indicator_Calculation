@@ -17,6 +17,10 @@ install.packages("raster")
 install.packages("sf")
 install.packages("dplyr")
 install.packages("catastRo")
+library(raster)
+library(sf)
+library(dplyr)
+library(catastRo)
 ```
 
 # Sustainability_Indicator_Calculation
