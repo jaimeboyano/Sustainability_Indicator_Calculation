@@ -11,5 +11,13 @@ Para poder ejecutar la herramienta, es necesario que los paquetes que utiliza es
 4. **dplyr** (https://cran.r-project.org/web/packages/dplyr/index.html): Herramienta general para trabajar con objetos de tipo dataframe
 5. **CatastRo** (https://cran.r-project.org/web/packages/CatastRo/index.html): Peite el acceso a los datos espaciales públicos disponibles en base a la directiva INSPIRE
 
+Para poder instalar los paquetes es necesario ejecutar las siguientes líneas de código: 
+```
+install.packages("raster")
+install.packages("sf")
+install.packages("dplyr")
+install.packages("catastRo")
+```
+
 # Sustainability_Indicator_Calculation
 Repository for calculating urban sustainability indicators using cadastral data from the Ministry of Finance and Public Function of Spain
