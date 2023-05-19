@@ -25,7 +25,15 @@ library(catastRo)
 ### 1.2. QGIS
 Una vez instalado R y Rstudio, el software con el que se va a trabajar es Qgis. Qgis es un Sistema de Información Geográfica  (SIG) de código abierto y multiplataforma que proporciona herramientas y funcionalidades para el tratamiento, análiis, visualización y edición de datos geoespaciales. La instalación de este software se realiza desde https://qgis.org/es/site/forusers/download.html. 
 De manera específica, para poder ejecutar los scripts de R de este repositorio en QGIS es necesario instalar el complemento R Provider. 
-#### 1.2.1 R Provider
+#### 1.2.1 Processing R Provider
+La intregración entre R y Qgis se hace con el complemento Processing R Provider desarrollado por NorthRoad (https://north-road.github.io/qgis-processing-r/).El proceso que se describe a continuacaión es el expuesto por Alonso Aransay, D. en MappingGIS (https://mappinggis.com/2019/09/como-integrar-r-en-qgis-3/)
+
+Para poder relacionar QGIS y R, el primer paso es instalar el complemento dentro de . Para ello es necesario seguir la siguiente ruta: Complementos - Administrar e instalar complmentos. 
+
+![Imagen 1. Diana Alonso Aransay](https://mappinggis.com/wp-content/uploads/2019/09/1-453x108.png) 
+
+
+
 ## 2. Fuentes de datos necesarias 
 ### 2.1 Sede Electrónica del Catastro 
 ### 2.2 Cadastral Classifier 
