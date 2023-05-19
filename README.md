@@ -1,9 +1,9 @@
 # Cálculo de Indicadores de Sostenibilidad Urbana 
 Repositorio para el cálculo de indicadores de sostenibilidad urbana a partir de datos catastrales del Ministerio de Hacienda y Función Pública del Gobierno de España
 
-## Instalación 
+## 1. Instalación 
 Para poder utilizar esta herramienta es necesario realizar una serie de instalaciones previas: El lenguaje de programación R con su correspondientes entorno de desarrollo Rstudio, descargar la información catastral de la Sede Electrónica del Catastro, el software de Qgis con los plugins Cadastral Classifier y R Provider
-### 1. R y Rstudio 
+### 1.1. R y Rstudio 
 La instalación de R y Rstudio se realiza desde la siguiente dirección (https://posit.co/download/rstudio-desktop/). Como se muestra, en primer lugar es necesario instalar primero el lenguaje de programación para, posteriormente instalar Rstudio. 
 Para poder ejecutar la herramienta, es necesario que los paquetes que utiliza estén instalados y cargados en el entorno de R. Los paquetes utilizados en la herramienta son: 
 1. **Raster** (https://cran.r-project.org/web/packages/raster/index.html): Sirve para la lectura, escritura, manipulación, análisis y modelización de datos espaciales. Es uno de los paquetes que cargará posteriormente R Provider en Qgis
@@ -22,10 +22,14 @@ library(sf)
 library(dplyr)
 library(catastRo)
 ```
-### 2. QGIS
+### 1.2. QGIS
 Una vez instalado R y Rstudio, el software con el que se va a trabajar es Qgis. Qgis es un Sistema de Información Geográfica  (SIG) de código abierto y multiplataforma que proporciona herramientas y funcionalidades para el tratamiento, análiis, visualización y edición de datos geoespaciales. La instalación de este software se realiza desde https://qgis.org/es/site/forusers/download.html. 
 De manera específica, para poder ejecutar los scripts de R de este repositorio en QGIS es necesario instalar el complemento R Provider. 
-#### 2.1 R Provider
-#### 2.2 Cadastral Classifier
-# Sustainability_Indicator_Calculation
+#### 1.2.1 R Provider
+## 2. Fuentes de datos necesarias 
+### 2.1 Sede Electrónica del Catastro 
+### 2.2 Cadastral Classifier 
+### 2.3 Censo 2011
+## 3. Descripción de la herramienta
+## 4. Relación de indicadores y fuentes de información
 Repository for calculating urban sustainability indicators using cadastral data from the Ministry of Finance and Public Function of Spain
