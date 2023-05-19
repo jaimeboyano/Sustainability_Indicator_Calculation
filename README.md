@@ -22,6 +22,8 @@ library(sf)
 library(dplyr)
 library(catastRo)
 ```
-
+### 2. QGIS
+#### 2.1 R Provider
+#### 2.2 Cadastral Classifier
 # Sustainability_Indicator_Calculation
 Repository for calculating urban sustainability indicators using cadastral data from the Ministry of Finance and Public Function of Spain
