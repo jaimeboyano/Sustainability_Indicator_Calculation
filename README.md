@@ -30,7 +30,7 @@ La intregración entre R y Qgis se hace con el complemento Processing R Provider
 
 Para poder relacionar QGIS y R, el primer paso es instalar el complemento dentro de . Para ello es necesario seguir la siguiente ruta: Complementos - Administrar e instalar complmentos. 
   
-  ![Imagen 1. Diana Alonso Aransay]((https://github.com/jaimeboyano/Sustainability_Indicator_Calculation/blob/main/Images/Complementos_1.png?raw=true)  
+  ![Imagen 1. Diana Alonso Aransay](https://github.com/jaimeboyano/Sustainability_Indicator_Calculation/blob/main/Images/Complementos_1.png?raw=true)  
 
 Tras ello, 
 
