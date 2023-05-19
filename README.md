@@ -23,6 +23,8 @@ library(dplyr)
 library(catastRo)
 ```
 ### 2. QGIS
+Una vez instalado R y Rstudio, el software con el que se va a trabajar es Qgis. Qgis es un Sistema de Información Geográfica  (SIG) de código abierto y multiplataforma que proporciona herramientas y funcionalidades para el tratamiento, análiis, visualización y edición de datos geoespaciales. La instalación de este software se realiza desde https://qgis.org/es/site/forusers/download.html. 
+De manera específica, para poder ejecutar los scripts de R de este repositorio en QGIS es necesario instalar el complemento R Provider. 
 #### 2.1 R Provider
 #### 2.2 Cadastral Classifier
 # Sustainability_Indicator_Calculation
