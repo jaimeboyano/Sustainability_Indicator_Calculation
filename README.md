@@ -30,9 +30,28 @@ La intregración entre R y Qgis se hace con el complemento Processing R Provider
 
 Para poder relacionar QGIS y R, el primer paso es instalar el complemento dentro de . Para ello es necesario seguir la siguiente ruta: Complementos - Administrar e instalar complmentos. 
   
-  ![Imagen 1. Diana Alonso Aransay](https://github.com/jaimeboyano/Sustainability_Indicator_Calculation/blob/main/Images/Complementos_1.png?raw=true)  
+  ![Imagen 1. Abrir Complmentos](https://github.com/jaimeboyano/Sustainability_Indicator_Calculation/blob/main/Images/Complementos_1.png?raw=true)  
 
-Tras ello, 
+Tras ello, se abrirá una ventana con todos los complementos posibles. En la barra de búsqueda introducir el nombre del complemento: Processing R Provider. Seleccionar el complemento e Instalar. 
+
+  ![Imagen 1. Abrir Complmentos](https://github.com/jaimeboyano/Sustainability_Indicator_Calculation/blob/main/Images/Complementos_1.png?raw=true)  
+
+Una vez instalado el complemento es necesario determinar una serie de rutas a las diferentes carpetas en las que está instalado R, los scripts y los paquetes. Para ello, en primer lugar hay que seleccionar configuración - opciones 
+
+En la ventana emergente buscar Procesos - Proveedores - R 
+Una vez aquí. Introducir las siguientes rutas a las carpetas: 
+ 1. **Package Repository:** https://cran.r-project.org 
+ 2. **R Folder:** Ruta a la carpeta donde está instalado R (no la carpeta bin). Suele estar en PRogram Files 
+ 3. **R Scripts folder:** Cualquier directorio del ordenador en el que se encuentren o vayan a encontrar los scripts de R. Solo se mostraraán las herramientas en esta carpeta. En este caso se ha utilizado: C:/Users/Jaime/AppData/Roaming/QGIS/QGIS3/profiles/default/processing/rscripts
+ 4. **Use 64 bit version:** Activado en caso de que la versión de R sea de 64 bits
+ 5. **Use user library folder instead of system libraries:** Activado
+ 6. **User library folder:** Directorio rlibs dónde se tienen instaladas las bibliotecas R para QGIS. Se suele encontrar en la carpeta processing de la instalación de QGIS 3. 
+
+Si se han configurado correctamente todas las carpetas ya se pueden utilizar los scripts introducidos con R dentro de Qgis, siempre y cuando se ubiquen en la ruta establecida para Rscripts. Una manera de confirmar que se han ejecutado adecuadamenet es porque en la caja de herramientas de procesos aparecen los símbolsos de R. 
+
+Ahora ya se pueden descargar los scripts de R de la carpeta Code de este repositorio, 
+
+ 
 
 
 ## 2. Fuentes de datos necesarias 
