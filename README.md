@@ -32,7 +32,7 @@ Para poder relacionar QGIS y R, el primer paso es instalar el complemento dentro
 
 |    ![Imagen 1. Diana Alonso Aransay](https://mappinggis.com/wp-content/uploads/2019/09/1-453x108.png)   |
 |:--:|
-| *Imagen 1. Diana Alonso Aransay* |
+| *Fuente. Alonso Aransay (s.f.)* |
 
 
 
