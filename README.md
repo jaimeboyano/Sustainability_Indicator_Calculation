@@ -23,12 +23,12 @@ library(dplyr)
 library(catastRo)
 ```
 ### 1.2. QGIS
-Una vez instalado R y Rstudio, el software con el que se va a trabajar es Qgis. Qgis es un Sistema de Información Geográfica  (SIG) de código abierto y multiplataforma que proporciona herramientas y funcionalidades para el tratamiento, análiis, visualización y edición de datos geoespaciales. La instalación de este software se realiza desde https://qgis.org/es/site/forusers/download.html. 
+Una vez instalado R y Rstudio, el software con el que se va a trabajar es Qgis. Qgis es un Sistema de Información Geográfica  (SIG) de código abierto y multiplataforma que proporciona herramientas y funcionalidades para el tratamiento, análisis, visualización y edición de datos geoespaciales. La instalación de este software se realiza desde https://qgis.org/es/site/forusers/download.html. 
 De manera específica, para poder ejecutar los scripts de R de este repositorio en QGIS es necesario instalar el complemento R Provider. 
 #### 1.2.1 Processing R Provider
 La intregración entre R y Qgis se hace con el complemento Processing R Provider desarrollado por NorthRoad (https://north-road.github.io/qgis-processing-r/).El proceso que se describe a continuacaión es el expuesto por Alonso Aransay, D. en MappingGIS (https://mappinggis.com/2019/09/como-integrar-r-en-qgis-3/)
 
-Para poder relacionar QGIS y R, el primer paso es instalar el complemento dentro de . Para ello es necesario seguir la siguiente ruta: Complementos - Administrar e instalar complmentos. 
+Para poder relacionar QGIS y R, el primer paso es instalar el complemento. Para ello es necesario seguir la siguiente ruta: Complementos - Administrar e instalar complmentos. 
   
   ![Imagen 1. Abrir Complmentos](https://github.com/jaimeboyano/Sustainability_Indicator_Calculation/blob/main/Images/Complementos_1.png?raw=true)  
 
@@ -42,16 +42,16 @@ Una vez instalado el complemento es necesario determinar una serie de rutas a la
 
 En la ventana emergente buscar Procesos - Proveedores - R 
 Una vez aquí. Introducir las siguientes rutas a las carpetas: 
- 1. **Package Repository:** https://cran.r-project.org 
+ 1. **Package Repository:** Introducir https://cran.r-project.org 
  2. **R Folder:** Ruta a la carpeta donde está instalado R (no la carpeta bin). Suele estar en PRogram Files 
- 3. **R Scripts folder:** Cualquier directorio del ordenador en el que se encuentren o vayan a encontrar los scripts de R. Solo se mostraraán las herramientas en esta carpeta. En este caso se ha utilizado: C:/Users/Jaime/AppData/Roaming/QGIS/QGIS3/profiles/default/processing/rscripts
+ 3. **R Scripts folder:** Cualquier directorio del ordenador en el que se encuentren o vayan a encontrar los scripts de R. Solo se mostrarán las herramientas en esta carpeta. En este caso se ha utilizado: C:/Users/Jaime/AppData/Roaming/QGIS/QGIS3/profiles/default/processing/rscripts
  4. **Use 64 bit version:** Activado en caso de que la versión de R sea de 64 bits
  5. **Use user library folder instead of system libraries:** Activado
  6. **User library folder:** Directorio rlibs dónde se tienen instaladas las bibliotecas R para QGIS. Se suele encontrar en la carpeta processing de la instalación de QGIS 3. 
  
 ![Imagen 4. Rutas](https://github.com/jaimeboyano/Sustainability_Indicator_Calculation/blob/main/Images/Complementos_4.png?raw=true)  
 
-Si se han configurado correctamente todas las carpetas ya se pueden utilizar los scripts introducidos con R dentro de Qgis, siempre y cuando se ubiquen en la ruta establecida para Rscripts. Una manera de confirmar que se han ejecutado adecuadamente es porque en la caja de herramientas de procesos aparecen los símbolos de R. Adicionalmente, cuandos se despliegue el menú inferior de R, deberían aparecer los scripts de esta herramienta. 
+Si se han configurado correctamente todas las carpetas ya se pueden utilizar los scripts introducidos con R dentro de Qgis, siempre y cuando se ubiquen en la ruta establecida para Rscripts. Una manera de confirmar si los procesos de ejecución se han llevado a cabo correctamente es verificar la presencia de los símbolos de R en la caja de herramientas de procesos. Además, al desplegar el menú inferior de R, deberían mostrarse los scripts correspondientes a esta herramienta. Estos indicadores visuales son una señal de que la integración de R está funcionando correctamente.
 
  ![Imagen 5. Confirmación](https://github.com/jaimeboyano/Sustainability_Indicator_Calculation/blob/main/Images/Complementos_5.png?raw=true)  
 
