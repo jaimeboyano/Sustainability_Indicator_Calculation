@@ -1,0 +1,10 @@
+{
+"Input table":"Tabla de la Comunidad Autónoma con los indicadores del seccionado censal", 
+"Shapefile_Seccen": "Capa vectorial con las seccciones censales. Puede ser sin filtrar",
+"Municipio": "Cadena o lista con los municipios que se quiere generar la cartografía. Solo se pueden utilizar de la misma autonomía", 
+"Output": "Ruta de salida del archivo vectorial resultante",
+"ALG_DESC": "Herramienta para unir la información vectorial de las secciones censales con los indicadores del censo 2011 (INE)",
+"ALG_CREATOR": "Jaime Boyano Galiano",
+"ALG_HELP_CREATOR": "Jaime Boyano Galiano",
+"ALG_VERSION": "1.0.0"
+}
