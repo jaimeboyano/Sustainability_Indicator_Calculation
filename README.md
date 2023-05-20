@@ -9,7 +9,7 @@ Para poder ejecutar la herramienta, es necesario que los paquetes que utiliza es
 1. **Raster** (https://cran.r-project.org/web/packages/raster/index.html): Sirve para la lectura, escritura, manipulación, análisis y modelización de datos espaciales. Es uno de los paquetes que cargará posteriormente R Provider en Qgis
 3. **Sf** (https://cran.r-project.org/web/packages/sf/index.html): Es el soporte para codificar datos vectoriales espaciales. Al igual que el paquete anterior, es uno de los paquetes que se carga automáticamente en el R Provider de Qgis 
 4. **dplyr** (https://cran.r-project.org/web/packages/dplyr/index.html): Herramienta general para trabajar con objetos de tipo dataframe
-5. **CatastRo** (https://cran.r-project.org/web/packages/CatastRo/index.html): Peite el acceso a los datos espaciales públicos disponibles en base a la directiva INSPIRE
+5. **CatastRo** (https://cran.r-project.org/web/packages/CatastRo/index.html): Permite el acceso a los datos espaciales públicos disponibles en base a la directiva INSPIRE
 
 Para poder instalar los paquetes es necesario ejecutar las siguientes líneas de código: 
 ```
@@ -37,6 +37,7 @@ Tras ello, se abrirá una ventana con todos los complementos posibles. En la bar
   ![Imagen 1. Abrir Complmentos](https://github.com/jaimeboyano/Sustainability_Indicator_Calculation/blob/main/Images/Complementos_1.png?raw=true)  
 
 Una vez instalado el complemento es necesario determinar una serie de rutas a las diferentes carpetas en las que está instalado R, los scripts y los paquetes. Para ello, en primer lugar hay que seleccionar configuración - opciones 
+  ![Imagen 1. Abrir Complmentos](https://github.com/jaimeboyano/Sustainability_Indicator_Calculation/blob/main/Images/Complementos_1.png?raw=true)  
 
 En la ventana emergente buscar Procesos - Proveedores - R 
 Una vez aquí. Introducir las siguientes rutas a las carpetas: 
@@ -46,13 +47,11 @@ Una vez aquí. Introducir las siguientes rutas a las carpetas:
  4. **Use 64 bit version:** Activado en caso de que la versión de R sea de 64 bits
  5. **Use user library folder instead of system libraries:** Activado
  6. **User library folder:** Directorio rlibs dónde se tienen instaladas las bibliotecas R para QGIS. Se suele encontrar en la carpeta processing de la instalación de QGIS 3. 
-
-Si se han configurado correctamente todas las carpetas ya se pueden utilizar los scripts introducidos con R dentro de Qgis, siempre y cuando se ubiquen en la ruta establecida para Rscripts. Una manera de confirmar que se han ejecutado adecuadamenet es porque en la caja de herramientas de procesos aparecen los símbolsos de R. 
-
-Ahora ya se pueden descargar los scripts de R de la carpeta Code de este repositorio, 
-
  
+ ![Imagen 1. Abrir Complmentos](https://github.com/jaimeboyano/Sustainability_Indicator_Calculation/blob/main/Images/Complementos_1.png?raw=true)  
 
+
+Si se han configurado correctamente todas las carpetas ya se pueden utilizar los scripts introducidos con R dentro de Qgis, siempre y cuando se ubiquen en la ruta establecida para Rscripts. Una manera de confirmar que se han ejecutado adecuadamente es porque en la caja de herramientas de procesos aparecen los símbolos de R. Adicionalmente, cuandos se despliegue el menú inferior de R, deberían aparecer los scripts de esta herramienta. 
 
 ## 2. Fuentes de datos necesarias 
 ### 2.1 Sede Electrónica del Catastro 
@@ -60,4 +59,3 @@ Ahora ya se pueden descargar los scripts de R de la carpeta Code de este reposit
 ### 2.3 Censo 2011
 ## 3. Descripción de la herramienta
 ## 4. Relación de indicadores y fuentes de información
-Repository for calculating urban sustainability indicators using cadastral data from the Ministry of Finance and Public Function of Spain
