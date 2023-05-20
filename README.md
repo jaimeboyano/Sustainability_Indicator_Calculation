@@ -34,10 +34,10 @@ Para poder relacionar QGIS y R, el primer paso es instalar el complemento dentro
 
 Tras ello, se abrirá una ventana con todos los complementos posibles. En la barra de búsqueda introducir el nombre del complemento: Processing R Provider. Seleccionar el complemento e Instalar. 
 
-  ![Imagen 1. Abrir Complmentos](https://github.com/jaimeboyano/Sustainability_Indicator_Calculation/blob/main/Images/Complementos_1.png?raw=true)  
+  ![Imagen 2. Instalar Complemento](https://github.com/jaimeboyano/Sustainability_Indicator_Calculation/blob/main/Images/Complementos_2.png)
 
 Una vez instalado el complemento es necesario determinar una serie de rutas a las diferentes carpetas en las que está instalado R, los scripts y los paquetes. Para ello, en primer lugar hay que seleccionar configuración - opciones 
-  ![Imagen 1. Abrir Complmentos](https://github.com/jaimeboyano/Sustainability_Indicator_Calculation/blob/main/Images/Complementos_1.png?raw=true)  
+  ![Imagen 3. Opciones](https://github.com/jaimeboyano/Sustainability_Indicator_Calculation/blob/main/Images/Complementos_3.png?raw=true)  
 
 En la ventana emergente buscar Procesos - Proveedores - R 
 Una vez aquí. Introducir las siguientes rutas a las carpetas: 
@@ -48,10 +48,12 @@ Una vez aquí. Introducir las siguientes rutas a las carpetas:
  5. **Use user library folder instead of system libraries:** Activado
  6. **User library folder:** Directorio rlibs dónde se tienen instaladas las bibliotecas R para QGIS. Se suele encontrar en la carpeta processing de la instalación de QGIS 3. 
  
- ![Imagen 1. Abrir Complmentos](https://github.com/jaimeboyano/Sustainability_Indicator_Calculation/blob/main/Images/Complementos_1.png?raw=true)  
+ ![Imagen 4. Rutas](https://github.com/jaimeboyano/Sustainability_Indicator_Calculation/blob/main/Images/Complementos_4.png?raw=true)  
 
 
 Si se han configurado correctamente todas las carpetas ya se pueden utilizar los scripts introducidos con R dentro de Qgis, siempre y cuando se ubiquen en la ruta establecida para Rscripts. Una manera de confirmar que se han ejecutado adecuadamente es porque en la caja de herramientas de procesos aparecen los símbolos de R. Adicionalmente, cuandos se despliegue el menú inferior de R, deberían aparecer los scripts de esta herramienta. 
+
+ ![Imagen 5. Confirmación](https://github.com/jaimeboyano/Sustainability_Indicator_Calculation/blob/main/Images/Complementos_5.png?raw=true)  
 
 ## 2. Fuentes de datos necesarias 
 ### 2.1 Sede Electrónica del Catastro 
