@@ -53,7 +53,21 @@ Una vez aquí. Introducir las siguientes rutas a las carpetas:
 
 Si se han configurado correctamente todas las carpetas ya se pueden utilizar los scripts introducidos con R dentro de Qgis, siempre y cuando se ubiquen en la ruta establecida para Rscripts. Una manera de confirmar si los procesos de ejecución se han llevado a cabo correctamente es verificar la presencia de los símbolos de R en la caja de herramientas de procesos. Además, al desplegar el menú inferior de R, deberían mostrarse los scripts correspondientes a esta herramienta. Estos indicadores visuales son una señal de que la integración de R está funcionando correctamente.
 
- ![Imagen 5. Confirmación](https://github.com/jaimeboyano/Sustainability_Indicator_Calculation/blob/main/Images/Complementos_5.png?raw=true)  
+ ![Imagen 5. Confirmación](https://github.com/jaimeboyano/Sustainability_Indicator_Calculation/blob/main/Images/Complementos_5.png?raw=true)
+ 
+Después de verificar la correcta instalación del complemento y proporcionar las rutas correspondientes a las diferentes carpetas, se pueden descargar los scripts desde este repositorio. Para ello, es necesario seguir estos pasos:
+
+1. Seleccionar el botón desplegable "Code" (en verde) y elegir la opción "Download ZIP".
+2. Descargar un archivo comprimido que contiene todos los documentos del repositorio.
+ ![Imagen 6. Confirmación](https://github.com/jaimeboyano/Sustainability_Indicator_Calculation/blob/main/Images/Complementos_5.png?raw=true)
+3. Descomprimir el archivo descargado y obtener una carpeta.
+4. Abrir la carpeta y dirigirse a la subcarpeta "code".
+5. Copiar todos los archivos de la carpeta "code".
+6. Navegar a la ruta establecida como "rscripts" durante la instalación del complemento de Processing R Provider.
+7. Pegar los archivos copiados en esa ubicación.
+Una vez completados estos pasos y si todo el proceso se ha realizado correctamente, los scripts estarán disponibles y se podrá ejecutar la herramienta.
+
+
 
 ## 2. Fuentes de datos necesarias 
 ### 2.1 Sede Electrónica del Catastro 
