@@ -68,6 +68,39 @@ Después de verificar la correcta instalación del complemento y proporcionar la
 Una vez completados estos pasos y si todo el proceso se ha realizado correctamente, los scripts estarán disponibles y se podrá ejecutar la herramienta.
 
 ## 2. Descripción de la herramienta
+La herramienta para el cálculo de indicadores consta de tres scripts distintos. El primero de ellos, y el más importante, es el script "Indicators_Calculation". Este script permite calcular los seis indicadores de sostenibilidad utilizando información catastral como base. Como complemento a este cálculo, se proporcionan otros dos scripts. El segundo script, llamado "Census_Tracks_Population", facilita la correlación entre las capas de secciones censales y la información tabulada de los indicadores del censo. Por último, el tercer script, denominado "Vector_to_Indicator", se encarga de convertir una capa vectorial (de puntos o polígonos) al formato de los indicadores de sostenibilidad urbana, generando una rejilla ráster con diferentes resoluciones espaciales.
+
+A continuación, se van a detallar las funcionalidades, entradas y salidas de cada uno de los scripts. Sin embargo, no se van a desarrollar hasta el siguiente apartado las fuentes de datos necesarias para la ejecución de la herramienta.
+
+### 2.1 Indicators Calculation 
+Herramienta para calcular indicadores de sostenibilidad urbana a partir de diferentes fuentes de información catastral
+1. **Indicadores a calcular:** Selección de los indicadores que se van a calcular
+2. **Extent Salida:** Archivo shapefile del que se tomarán la extensión y el CRS 
+3. **Clasificación Intermedia Clasificador Catastral:** Capa poligonal con la Clasificación Intermedia obtenida del Plugin Cadastral Classifier
+4. **Capa Constru Catastro:** Capa poligonal Constru resultado de la descarga de la Sede Electrónica del Catastro
+5. **Sección Censal con Población:** Capa Shapefile con las secciones censales y los indicadores de población y vivienda (INE, 2011). Puede ser el resutlado de la herramienta Census_Tracks_Population 
+6. **Munincipio:** Nombre del municipio o municipios (separados por ,;.) de los que se quieren calcular los indicadores. Importante, para seleccionar varios municipios es necesario incluir como Extent Salida una capa que contenga todos. 
+7. **New Folder:** Salida en la que se guardarán todos los resultados 
+
+Nota: Los resultados no se visualizan directamente en QGIS, simplemente se guardan en la carpeta. 
+
+### 2.2 Census Tracks Population 
+Herramienta para unir la información vectorial de las secciones censales con los indicadores del censo 2011 (INE)
+1. **Input table:** Tabla con la información de los indicadores de población y vivienda del INE (2011). El INE las tiene como agrupadas por autonomías 
+2. **Shapefile Seccen:** Capa vectorial con todas las secciones censales. Pueden ser las de todo el estado español. 
+3. **Municipio:** Cadena o lista con los municipios que se quiere generar la cartografía. Nota: solo se pueden ejecutar municipios de la misma autonomía 
+4. **Output:** Ruta en la que se guardará el archivo de salida resultante.
+
+### 2.3 Vector to Indicator 
+Herramienta para calcular indicadores de sostenibilidad a partir de capas vectoriales
+1. **Capa Entrada:** Capa vectorial (de puntos o polígonos) con la que se desea calcular un indicador de sostenibilidad 
+2. **Tipología de la capa:** Determinación si la capa vectorial es de puntos o polígonos
+3. **Shapefile Extension CRS Raster Salida:** Capa de la que se quiere obtener tanto la extensión como el CRS de la capa resultante
+4. **Columna:** Columna de la capa vectorial que se quiere utilizar para la conversión del vectorial al ráster
+5. **Tamaño Pixel:** Determinación del tamaño del píxel (en metros)
+6. **Funcion de agregacion:** Función de Agregación para convertir del vectorial al ráster. First: Primer valor, last: último valor, sum: suma y mean: media 
+7. **Salida Resultado:** Dirección de salida en la que se quiere guardar el resultado
+
 ## 3. Fuentes de datos necesarias 
 ### 3.1 Sede Electrónica del Catastro 
 ### 3.2 Cadastral Classifier 
