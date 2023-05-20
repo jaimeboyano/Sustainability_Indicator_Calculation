@@ -67,11 +67,9 @@ Después de verificar la correcta instalación del complemento y proporcionar la
 7. Pegar los archivos copiados en esa ubicación.
 Una vez completados estos pasos y si todo el proceso se ha realizado correctamente, los scripts estarán disponibles y se podrá ejecutar la herramienta.
 
-
-
-## 2. Fuentes de datos necesarias 
-### 2.1 Sede Electrónica del Catastro 
-### 2.2 Cadastral Classifier 
-### 2.3 Censo 2011
-## 3. Descripción de la herramienta
+## 2. Descripción de la herramienta
+## 3. Fuentes de datos necesarias 
+### 3.1 Sede Electrónica del Catastro 
+### 3.2 Cadastral Classifier 
+### 3.3 Censo 2011
 ## 4. Relación de indicadores y fuentes de información
