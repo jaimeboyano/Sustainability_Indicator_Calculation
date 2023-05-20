@@ -59,7 +59,7 @@ Después de verificar la correcta instalación del complemento y proporcionar la
 
 1. Seleccionar el botón desplegable "Code" (en verde) y elegir la opción "Download ZIP".
 2. Descargar un archivo comprimido que contiene todos los documentos del repositorio.
- ![Imagen 6. Confirmación](https://github.com/jaimeboyano/Sustainability_Indicator_Calculation/blob/main/Images/Complementos_5.png?raw=true)
+ ![Imagen 6. Confirmación](https://github.com/jaimeboyano/Sustainability_Indicator_Calculation/blob/main/Images/Complementos_6.png?raw=true)
 3. Descomprimir el archivo descargado y obtener una carpeta.
 4. Abrir la carpeta y dirigirse a la subcarpeta "code".
 5. Copiar todos los archivos de la carpeta "code".
