@@ -112,7 +112,7 @@ La base de datos del catastro se divide en dos componentes: espacial y temática
 5.	Tipo 15. Registro de Bien Inmueble, uno por cada Bien Inmueble de la parcela catastral 
 6.	Tipo 16. Registro de elementos comunes, existe solo si hay elementos comunes en los Bienes Inmuebles de las parcelas 
 7.	Tipo 17. Registro de cultivos, existe uno para cada subparcela rústica con la información de los cultivos 
-8.	Tipo 90. Registro de cola, uno para todo el fichero 
+8.	Tipo 90. Registro de cola, uno para todo el fichero
 Por otro lado, la información vectorial (en formato “shapefile”) corresponde a las unidades espaciales superficiales (manzanas, parcelas y edificaciones) de forma poligonal, así como otra información auxiliar (mobiliario urbano, aceras, hidrografía, vías de comunicación, etc.) representada en forma de líneas y puntos. Además de la información vectorial, el parcelario catastral también contiene información en formato tabla denominadas PARCELA, SUBARCE, CONSTRU y MASA, aunque su relevancia es limitada ya que toda la información importante se encuentra en las tablas del formato CAT. La relación entre la información temática y vectorial se realiza mediante la Referencia Catastral. Esta referencia catastral es un código alfanumérico único para cada parcela formado por 14 caracteres (Cocero Matesanz et al., 2014).
 
 ### 3.2 Base de datos de INSPIRE  
