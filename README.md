@@ -142,4 +142,5 @@ El complemento Clasificador Catastral (Cadastral Classifier) permite clasificar 
 El otro de los complementos de QGIS utilizados ha sido Processing R Provider que, como su nombre indica, es un proveedor de procesamiento que permite ejecutar scripts de R directamente desde QGIS, utilizando datos cargados en el software. En este complemento se carga directamente la combinación de “sp” y “rgdal” o “sf” para el tratamiento de información vectorial y “sp” y “rgdal” o “raster” para los datos ráster. 
 
 
-## 5. Relación de indicadores y fuentes de información
+## 5. Relación de indicadores y capas
+![Imagen 7. Relación entre indicadores y capas fuente](https://github.com/jaimeboyano/Sustainability_Indicator_Calculation/blob/main/Images/Relacion_Indicador_Capas.png)
