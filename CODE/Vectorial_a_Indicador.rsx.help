@@ -1,0 +1,13 @@
+{
+"Capa_Entrada":"Capa vectorial con la información poligonal que se desea convertir en un indicador de sostenibilidad",
+"Tipologia_Capa": "Geometría de la capa que se está introduciendo", 
+"Shapefile_Extension_CRS_raster_salida": "Capa de la que se quiere obtener tanto la extensión como el CRS de la capa resultante",
+"Columna": "Columna de la capa vectorial que se quiere utilizar para la conversión del vectorial al ráster", 
+"Funcion_de_agregacion": "Función de Agregación para convertir del vectorial al ráster. First: Primer valor, last: último valor, sum: suma y mean: media", 
+"Tamano_Pixel": "Longitud de lado del pixel resultante (en metros)",
+"Salida_Resultado": "Dirección de salida en la que se quiere guardar el resultado", 
+"ALG_DESC": "Herramienta para calcular indicadores de sostenibilidad a partir de capas vectoriales",
+"ALG_CREATOR": "Jaime Boyano Galiano",
+"ALG_HELP_CREATOR": "Jaime Boyano Galiano",
+"ALG_VERSION": "1.0.0"
+}
