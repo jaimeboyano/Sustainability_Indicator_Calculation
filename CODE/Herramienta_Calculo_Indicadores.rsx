@@ -224,7 +224,7 @@ if ("4. Diversidad de Usos" %in% Indicadores_a_calcular) {
 if ((("5. Densidad de Poblacion" %in% Indicadores_a_calcular) || grepl("^6", Indicadores_a_calcular)) && !is.null(Seccion_Censal_con_Poblacion)){
   Seccion_Censal_con_Poblacion$Pob_Viv <- round(Seccion_Censal_con_Poblacion$t1_1 / Seccion_Censal_con_Poblacion$t21_1, 4)
   edificios_join_secciones <- st_join(Edificios_Residential, Seccion_Censal_con_Poblacion, join = st_within, left = FALSE)
-  edificios_join_secciones$Pob_Edif <- edificios_join_secciones$Pob_Viv * edificios_join_secciones$Prop_Dw
+  edificios_join_secciones$Pob_Edif <- edificios_join_secciones$Pob_Viv * edificios_join_secciones$Prop_Viv
   Edificios_Pob_Raster <- poligonos_a_raster_200(edificios_join_secciones, extent, 'Pob_Edif', 'sum')
 } else{
   print("No se ha introducido la capa con las secciones censales de poblacion para calcular los indicadores 5 y 6")
