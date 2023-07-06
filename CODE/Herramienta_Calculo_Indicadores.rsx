@@ -292,7 +292,7 @@ if('6.3 Proximidad a Centros de Ocio' %in% Indicadores_a_calcular){
       Porc_Pob_Ocio <- Pob_Ocio_Raster/Edificios_Pob_Raster*100
       output_raster_path <- file.path(Nueva_Carpeta, 'proximidad_ocio.tif')
       writeRaster(Porc_Pob_Ocio, output_raster_path, format = 'GTiff', overwrite = TRUE)
-      print("Indicador 6.4 Proximidad a Centros de Ocio Calculado")
+      print("Indicador 6.3 Proximidad a Centros de Ocio Calculado")
     } else {
       print("El municipio no tiene Centros de Ocio")
     }
@@ -309,7 +309,7 @@ if('6.4 Proximidad a Centros Deportivos' %in% Indicadores_a_calcular){
       Porc_Pob_Dep <- Pob_Dep_Raster/Edificios_Pob_Raster*100
       output_raster_path <- file.path(Nueva_Carpeta, 'proximidad_deporte.tif')
       writeRaster(Porc_Pob_Dep, output_raster_path, format = 'GTiff', overwrite = TRUE)
-      print("Indicador 6.5 Proximidad a Centros Deportivos Calculado")
+      print("Indicador 6.4 Proximidad a Centros Deportivos Calculado")
     } else {
       print("El municipio no tiene Centros Deportivos")
     }
